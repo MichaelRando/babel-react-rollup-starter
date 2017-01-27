@@ -19,17 +19,14 @@ export default {
     cjs({
       exclude: 'node_modules/process-es6/**',
       include: [
-        'node_modules/fbjs/**',
-        'node_modules/object-assign/**',
-        'node_modules/react/**',
-        'node_modules/react-dom/**'
+        'node_modules/**'
       ]
     }),
     globals(),
     replace({ 'process.env.NODE_ENV': JSON.stringify('development') }),
     resolve({
-      browser: true,
-      main: true
+      main: true,
+      browser: true
     })
   ],
   sourceMap: true

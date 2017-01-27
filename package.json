@@ -44,7 +44,10 @@
     "rollup-plugin-replace": "1.1.1",
     "rollup-plugin-uglify": "1.0.1",
     "snazzy": "6.0.0",
-    "standard": "8.6.0"
+    "standard": "8.6.0",
+    "reactstrap": "^4.0.1",
+    "react-addons-css-transition-group": "^15.4.2",
+    "react-addons-transition-group": "^15.4.2"
   },
   "scripts": {
     "prebuild": "npm run std --silent",
